@@ -1,0 +1,72 @@
+/* General styles for the entire site */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styles specific to poetry pages */
+.poem {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.stanza {
+    margin-bottom: 20px;
+}
+
+.line {
+    display: block;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    border-left: 4px solid #ddd;
+}
+
+/* Best poetry section for main page */
+.best-poetry {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background: #fafafa;
+}
